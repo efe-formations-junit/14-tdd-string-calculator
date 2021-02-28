@@ -1,0 +1,20 @@
+String Calculator
+
+Créer un String calculator avec la signature de méthode suivante :
+int add(string numbers)
+
+La méthode peut prendre jusqu'à deux nombres, séparés par des virgules, et renverra leur somme. 
+Par exemple «» ou «1» ou «1,2» comme entrées. (pour une chaîne vide, il retournera 0)
+
+Astuces:
+• Commencez par le cas de test le plus simple d'une chaîne vide et passez à un et deux nombres
+• N'oubliez pas de résoudre les choses le plus simplement possible afin de vous forcer à écrire des tests auxquels vous n'avez pas pensé
+• N'oubliez pas de refactoriser après chaque test réussi
+
+Suite :
+• Autoriser la méthode add à gérer une quantité inconnue de nombres
+
+Optionnel :
+• Autorisez la méthode add à gérer les nouvelles lignes (\n) entre les nombres (au lieu des virgules) o l'entrée suivante est ok : "1\n2,3" (égal 6)
+• Prise en charge de différents délimiteurs o pour changer un délimiteur, le début de la chaîne contiendra une ligne distincte qui ressemble à ceci : 
+“//[delimiter]\n[numbers…]” o par exemple “//;\n1;2” doit renvoyer trois (le délimiteur par défaut est ";")
